@@ -119,7 +119,6 @@ def run_neat(config):
     with open("best.pickle", "wb") as f:
         pickle.dump(winner, f)
 
-
 def test_ai(config):
     width, height = 700, 500
     window = pygame.display.set_mode((width, height))
